@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/x-icon" href="./img/dictionary.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learn Vocabulary</title>
+  <script src="https://kit.fontawesome.com/31bd191ea4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="app">
+    <div class="wrapper">
+      <h1 class="wrapper__heading">Learn Vocabulary</h1>
+      <div class="wrapper__input">
+        <input id="input-word" type="text" class="wrapper__input-text" required='required' placeholder="Từ vựng">
+        <input id="input-mean" type="text" class="wrapper__input-text" required='required' placeholder="Ngữ Nghĩa">
+        <button id="btn-add" class="btn wrapper__input-btn">Add</button>
+      </div>
+      <div>
+        <a href="#" class="btn btn-big">Kiểm tra từ vựng</a>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Stt</th>
+            <th>Từ vựng</th>
+            <th>Ngữ nghĩa</th>
+            <th></th>
+          </tr>
+        </thead>
+        
+        <tbody id="table-bd">
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
