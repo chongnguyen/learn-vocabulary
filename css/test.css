@@ -47,3 +47,9 @@
   background-color: #F8D7DA;
   color: #975057;
 }
+
+.btn-back {
+  display: inline-block;
+  margin: 30px 0px 10px;
+  padding: 10px 20px;
+}
