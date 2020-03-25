@@ -1,0 +1,49 @@
+.wrapper__input {
+  display: flex;
+
+}
+.wrapper__input-text {
+  display: block;
+  flex: 1;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+}
+.wrapper__input-btn {
+  padding: 10px 26px;
+  margin-left: 10px;
+}
+
+#mean {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.alert-box {
+  position: relative;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.alert-success,
+.alert-danger{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 10px 20px;
+  font-size: 2rem;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.alert-success {
+  background-color: #D4EDDA;
+  color: #6E9D79;
+}
+.alert-danger {
+  background-color: #F8D7DA;
+  color: #975057;
+}
